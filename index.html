@@ -15,33 +15,39 @@
 
     <nav>
         <p>CodeX Team</p>
-        <div class="navlinks">
+        <i onclick="shownav()" id="show" class="fas fa-bars"></i>
+        <div class="navlinks" id="navlinks">
             <ul>
-                <li class="active"><a href="#home" >Home</a></li>
+                <i onclick="hidenav()" class="fas fa-x"></i>
+                <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#activity">Activities</a></li>
                 <li><a href="#team">Our Team</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#">Log-Out <i class="fa fa-right-from-bracket"></i></a></li>
+
             </ul>
         </div>
     </nav>
 
 
     <div class="container" id="home">
-        <span class="auto-type"></span>
-        <p>Trusted Team for Your websites</p>
-        <div class="des">
-            We have made the best site, CodeX.<br>
-            You can have your Royal website with this team
+        <img src="logo.png" alt="">
+        <div class="menu">
+            <span class="auto-type"></span>
+            <p>Trusted Team for Your websites</p>
+            <div class="des">
+                We have made the best site, CodeX.<br>
+                You can have your Royal website with this team
+            </div>
+
+            <div class="icons">
+                <a href="https://wa.me/0749542078"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/code.x59"><i class="fab fa-instagram"></i></a>
+                <a href="https://threads.net/@code.x59"><i class="fab fa-threads"></i></a>
+            </div>
         </div>
 
-        <div class="icons">
-            <a href="https://wa.me/0749542078"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://instagram.com/code.x59"><i class="fab fa-instagram"></i></a>
-            <a href="https://threads.net/@code.x59"><i class="fab fa-threads"></i></a>
-        </div>
-        <img src="logo.png" alt="">
     </div>
 
 
@@ -77,159 +83,113 @@
     </div>
 
     <!-- activities section -->
+    <!-- activities section -->
     <div class="activity" id="activity">
         <h1>Our projects</h1>
         <div class="activity-items">
             <div class="activity-links">
-                <li onclick="showsample()">porject name</li>
-                <li onclick="showsample1()">project name</li>
-                <li onclick="showsample2()">project name</li>
-                <li onclick="showsample3()">project name</li>
-                <li onclick="showsample4()">project name</li>
-                <li onclick="showsample5()">project name</li>
-                <li onclick="showsample6()">project name</li>
-                <li onclick="showsample7()">project name</li>
-                <li onclick="showsample8()">project name</li>
-                <li onclick="showsample9()">project name</li>
+                <li onclick="showsample()">www.CodexYoutube.com</li>
+                <li onclick="showsample1()">Noorahighschool.com</li>
+                <li onclick="showsample2()">Contact us form template</li>
+                <li onclick="showsample3()">I love you.com</li>
             </div>
 
 
             <div class="activity-images">
                 <!-- activites -->
-               <div class="img"  id="sample">
-                 <a href="google.com">
-                    <img class="active" src="sample.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
+                <div class="img active" id="sample" >
+                    <a href="google.com">
+                        <img src="sample.PNG" alt="">
+                        <div class="label">
+                            <p>Click to Enter</p>
+                        </div>
+                    </a>
+                </div>
 
                 <div class="img" id="sample1">
-                 <a href="google.com">
-                    <img class="active" src="sample1.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
+                    <a href="google.com">
+                        <img src="sample1.PNG" alt="">
+                        <div class="label">
+                            <p>Click to Enter</p>
+                        </div>
+                    </a>
+                </div>
 
                 <div class="img" id="sample2">
-                 <a href="google.com">
-                    <img class="active" src="sample2.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
+                    <a href="google.com">
+                        <img src="sample2.PNG" alt="">
+                        <div class="label">
+                            <p>Click to Enter</p>
+                        </div>
+                    </a>
+                </div>
 
                 <div class="img" id="sample3">
-                 <a href="google.com">
-                    <img class="active"  src="sample2.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
+                    <a href="google.com">
+                        <img src="sample2.PNG" alt="">
+                        <div class="label">
+                            <p>Click to Enter</p>
+                        </div>
+                    </a>
+                </div>
 
-                <div class="img" id="sample4">
-                 <a href="google.com">
-                    <img class="active" src="sample1.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
+              
 
-                <div class="img" id="sample5">
-                 <a href="google.com">
-                    <img class="active"  src="sample2.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
 
-                <div class="img" id="sample6">
-                 <a href="google.com">
-                    <img class="active"  src="sample1.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
 
-                <div class="img" id="sample7">
-                 <a href="google.com">
-                    <img class="active"  src="sample2.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
 
-                <div class="img" id="sample8">
-                 <a href="google.com">
-                    <img class="active"  src="sample1.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
 
-                <div class="img" id="sample9">
-                 <a href="google.com">
-                    <img class="active" src="sample2.PNG" alt="">
-                    <div class="label">
-                        <p>click to enter the site</p>
-                    </div>
-                </a>
-               </div>
-                
+
+
+
+
+
             </div>
         </div>
 
     </div>
 
 
+
+
     <!-- our team -->
     <div class="team" id="team">
         <div class="team-items">
             <div class="item">
-                    <div class="flow">
-                        <img src="RohullahAhmadi.jpg" alt="">
-                    </div>
+                <div class="flow">
+                    <img src="RohullahAhmadi.jpg" alt="">
+                </div>
                 <p>
                     <span>Rohullah Ahmadi</span> <br>
-                   Founder Of CodeX. <br>
-                   FrondEnd Developer.<br>
-                   Backend Developer.<br>
-                   Porject Manager.<br>
+                    Founder Of CodeX. <br>
+                    FrondEnd Developer.<br>
+                    Backend Developer.<br>
+                    Porject Manager.<br>
                 </p>
             </div>
 
             <div class="item">
                 <div class="flow"><img src="M.hussainSamim.PNG" alt=""></div>
-                
+
                 <p>
                     <span>M.Hussain Samim</span> <br>
-                   FrondEnd Developer.<br>
-                   Porject Manager.<br>
-                   BootSrap Expert.<br>
-                   freelancer.<br>
+                    FrondEnd Developer.<br>
+                    Porject Manager.<br>
+                    BootSrap Expert.<br>
+                    freelancer.<br>
                 </p>
             </div>
 
-             <div class="item">
+            <div class="item">
                 <div class="flow">
                     <img src="abbasshaidari.PNG" alt="">
                 </div>
                 <p>
                     <span>Abbas Haidari</span> <br>
-                   FrondEnd Developer.<br>
-                   Porject Manager.<br>
-                   Talwind Expert.<br>
-                   Full stuck Developer.<br>
+                    FrondEnd Developer.<br>
+                    Porject Manager.<br>
+                    Talwind Expert.<br>
+                    Full stuck Developer.<br>
                 </p>
             </div>
 
@@ -241,6 +201,12 @@
 
     <!-- contact section -->
     <div class="contact" id="contact">
+        <form action="https://formspree.io/f/xqaydpbw" method="post">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email-adress" placeholder="Enter Email" required>
+            <textarea name="message" id="" placeholder="Type Your Message" required></textarea>
+            <input type="submit" value="Send Email">
+        </form>
         <div class="footer">
             <div class="url">
                 <li>FreeCodeCamp.com</li>
@@ -257,15 +223,8 @@
                 <li>Frontdeveloper</li>
             </div>
         </div>
-        <form action="https://formspree.io/f/xqaydpbw" method="post">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email-adress" placeholder="Enter Email" required>
-            <textarea name="message" id="" placeholder="Type Your Message" required></textarea>
-            <input type="submit" value="Send Email">
-        </form>
+
     </div>
-
-
 
 
     <!-- type script -->
@@ -287,123 +246,44 @@
             sample1.style.display = 'none'
             sample2.style.display = 'none'
             sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
+
         }
         function showsample1() {
             sample.style.display = 'none'
             sample1.style.display = 'block'
             sample2.style.display = 'none'
             sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
+
         }
         function showsample2() {
             sample.style.display = 'none'
             sample1.style.display = 'none'
             sample2.style.display = 'block'
             sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
+
         }
         function showsample3() {
             sample.style.display = 'none'
             sample1.style.display = 'none'
             sample2.style.display = 'none'
             sample3.style.display = 'block'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
+           
         }
-        function showsample4() {
-            sample.style.display = 'none'
-            sample1.style.display = 'none'
-            sample2.style.display = 'none'
-            sample3.style.display = 'none'
-            sample4.style.display = 'block'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
-        }
-        function showsample5() {
-            sample.style.display = 'none'
-            sample1.style.display = 'none'
-            sample2.style.display = 'none'
-            sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'block'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
-        }
-        function showsample6() {
-            sample.style.display = 'none'
-            sample1.style.display = 'none'
-            sample2.style.display = 'none'
-            sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'block'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
-        }
-        function showsample7() {
-            sample.style.display = 'none'
-            sample1.style.display = 'none'
-            sample2.style.display = 'none'
-            sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'block'
-            sample8.style.display = 'none'
-            sample9.style.display = 'none'
-        }
-        function showsample8() {
-            sample.style.display = 'none'
-            sample1.style.display = 'none'
-            sample2.style.display = 'none'
-            sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'block'
-            sample9.style.display = 'none'
-        }
-        function showsample9() {
-            sample.style.display = 'none'
-            sample1.style.display = 'none'
-            sample2.style.display = 'none'
-            sample3.style.display = 'none'
-            sample4.style.display = 'none'
-            sample5.style.display = 'none'
-            sample6.style.display = 'none'
-            sample7.style.display = 'none'
-            sample8.style.display = 'none'
-            sample9.style.display = 'block'
-        }
+       
     </script>
 
+
+
+    <!-- navbar media 991px -->
+    <script>
+        function shownav() {
+            navlinks.style = 'display:block;'
+            show.style = 'display:none'
+        }
+        function hidenav() {
+            navlinks.style = 'display:none;'
+            show.style = 'display:block'
+        }
     </script>
 </body>
 
